@@ -200,7 +200,7 @@ cd tests && npm test
 - **Network Issues**: Rural areas have poor connectivity
   - Mitigation: Progressive enhancement, offline-first design
 
-## Architecture Summary (200-300 words)
+## Architecture Summary 
 
 Our Voice, Our Rights is a full-stack web application designed to make MGNREGA performance data accessible to rural citizens in Uttar Pradesh. The architecture follows a microservices pattern with clear separation of concerns.
 
@@ -216,7 +216,7 @@ Our Voice, Our Rights is a full-stack web application designed to make MGNREGA p
 
 **Scalability**: The architecture supports multiple instances behind a load balancer, with shared MongoDB and Redis clusters. CDN integration for static assets and database read replicas can handle increased traffic.
 
-## UX Rationale for Low-Literacy Users (200-300 words)
+## UX Rationale for Low-Literacy Users 
 
 The user experience is specifically designed for rural Indian users who may have limited literacy or digital experience. Research shows that visual and auditory learning are more effective than text-heavy interfaces in such contexts.
 
@@ -245,6 +245,3 @@ This approach ensures that citizens can independently access government data wit
 3. Make changes with tests
 4. Submit a pull request
 
-## License
-
-MIT License - see LICENSE file for details.
